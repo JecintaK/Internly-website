@@ -28,3 +28,29 @@
     // Display the message
     const message = `You've visited <span class="count">${visitCount}</span> time${visitCount > 1 ? 's' : ''}.`;
     document.getElementById('visit-message').innerHTML = message;
+
+
+    // Handle button click to display message
+    document.getElementById('f-button').addEventListener('click', function () {
+    document.getElementById('output-message').textContent = 'Thank you for joining us!';
+    });
+
+    document.getElementById('button1').addEventListener('click', function () {
+    document.getElementById('message1').textContent = 'Welcome! Thank you for joining Interly';
+    });
+
+    document.getElementById('button2').addEventListener('click', function () {
+    document.getElementById('message2').textContent = 'Thank you for signing up.';
+    });
+
+    document.getElementById('button3').addEventListener('click', function () {
+    document.getElementById('message3').textContent = 'Your profile has been created.';
+    });
+
+    document.getElementById('button4').addEventListener('click', function () {
+    document.getElementById('message4').textContent = 'Thank you for partnering with us.';
+    });
+
+    document.getElementById('button5').addEventListener('click', function () {
+    document.getElementById('message5').textContent = 'Your message has been submitted.';
+    });

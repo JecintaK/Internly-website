@@ -77,6 +77,13 @@
 
 
         }
+            .message-box {
+            margin-top: 20px;
+            font-size: 18px;
+            color: rgb(187, 81, 220);
+            font-weight: bold;
+            }
+
 
         .headline {
             margin-top: 100px;
@@ -139,15 +146,101 @@
             cursor: pointer;
             border: none;
             color: white;
-            
         }
         .button:hover {
             background-color: rgb(235, 199, 254);
-
+        }
+        #button1 {
+             background-color: rgb(238, 145, 185);
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 50px;
+            cursor: pointer;
+            border: none;
+            color: white;
         }
 
-        
 
+           #message1 {
+            margin-top: 20px;
+            font-size: 18px;
+            color: rgb(134, 46, 161);
+            font-weight: bold;
+            }
+
+
+             #button2 {
+             background-color: rgb(238, 145, 185);
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 50px;
+            cursor: pointer;
+            border: none;
+            color: white;
+        }
+
+
+           #message2 {
+            margin-top: 20px;
+            font-size: 18px;
+            color: rgb(134, 46, 161);
+            font-weight: bold;
+            }
+
+             #button3 {
+             background-color: rgb(238, 145, 185);
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 50px;
+            cursor: pointer;
+            border: none;
+            color: white;
+        }
+
+
+           #message3 {
+            margin-top: 20px;
+            font-size: 18px;
+            color: rgb(134, 46, 161);
+            font-weight: bold;
+            }
+             #button4 {
+             background-color: rgb(238, 145, 185);
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 50px;
+            cursor: pointer;
+            border: none;
+            color: white;
+        }
+
+        #message4 {
+            margin-top: 20px;
+            font-size: 18px;
+            color: rgb(134, 46, 161);
+            font-weight: bold;
+            }
+
+
+        
+           #message5 {
+            margin-top: 20px;
+            font-size: 18px;
+            color: rgb(134, 46, 161);
+            font-weight: bold;
+            }
+             #button5 {
+             background-color: rgb(238, 145, 185);
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 50px;
+            cursor: pointer;
+            border: none;
+            color: white;
+        }
+
+
+          
         .statistics {
             display: flex;
             flex-wrap: wrap;
