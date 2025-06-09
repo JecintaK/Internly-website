@@ -20,4 +20,5 @@ verified internship opportunities. Our mission is to empower students by providi
 
 
 It is deployed using Github pages you can use this link to access it https://jecintak.github.io/Internly-website/
+the link to the figma design https://www.figma.com/design/THzEV74YPO9txi8yhU8jSA/Startup-website?node-id=0-1&t=NQeH5MCHSIFqjS9L-1 
 
