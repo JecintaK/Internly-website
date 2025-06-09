@@ -1,13 +1,12 @@
- document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener("click", function (e) {
-      e.preventDefault();
-      const target = document.querySelector(this.getAttribute("href"));
-      if (target) {
-        target.scrollIntoView({ behavior: "smooth" });
-      }
-    });
+ document.querySelectorAll('a[href="#mission-section"]').forEach(anchor => {
+  anchor.addEventListener("click", function (e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute("href"));
+    if (target) {
+      target.scrollIntoView({ behavior: "smooth" });
+    }
   });
-
+});
 
 
 
@@ -54,3 +53,8 @@
     document.getElementById('button5').addEventListener('click', function () {
     document.getElementById('message5').textContent = 'Your message has been submitted.';
     });
+
+document.getElementById("chatbot-icon").addEventListener("click", function () {
+  alert("Hi! How can I help you?");
+  // You can replace this with code to open a chatbot UI or iframe.
+});
